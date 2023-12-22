@@ -1,0 +1,88 @@
+Tests/Validations
+=====================
+JSON - Java script Object Notation
+
+Less waited data : json/xml
+
+json is very useful than XML (soap UI)
+
+Json is syantx storing and exchanging the data
+
+NPM : Node package Manager
+
+https://jsonpathfinder.com/
+
+https://jsonpath.com/
+
+Response Validations:
+====================
+Status COde
+Headers
+Cookies
+Response time
+Response Body
+
+Assertion - Validation
+Pm is a library. it is like a functions. We will use javascript to write validations
+
+Function:
+-------------
+Normal function
+Arrow function
+
+Chai Assertion Library
+------------------
+pm.test("Test Name",function()
+{
+
+//assertion
+
+}
+);
+
+pm.test("Test Name",()=>{});
+
+Headers validation
+------------------
+Content Type
+
+Mime type - it is representing type of data
+
+tv4 - is libray
+tiny validator  version no 4
+
+Scripts:
+Pre-request scripts
+Tests
+
+Pre-request script ---> Request --->Response ---> Test script
+
+Pre-request script :
+--------------------
+collection
+Folder
+Request
+
+Test script
+--------------
+collection
+Folder
+Request
+
+Variables :
+==========
+which can store some data.
+
+Workspace --- Collection --- Requests
+
+Global variable - Accessable in workspace
+Collection Variable - Accessable with in the collection level only
+Environment variable -  variables Accessible through environments(We need to switch particular environments)
+Local variable : In the pre-request we have to create
+-------
+pm.variable.set("url_local","value");
+Data Variable
+
+url_global-{{url_global}} - we can use with double curly brackest
+
+We can create all variables in the pre-request
